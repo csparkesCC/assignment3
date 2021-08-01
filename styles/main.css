@@ -21,6 +21,88 @@ div#frame {
 	box-shadow: 0px 0px 90px 2px #008020;
 }
 
+/*set the border of required fields */
+:required {
+	border-color: orange;
+	border-width: 2px;
+}
+
+/*set the border of valid fields */
+:valid {
+	border-color: black;
+	border-width: 1px;
+}
+
+/*set padding and margins of fieldsets */
+fieldset {
+	padding-top: .5em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*set margins and font settings of legends */
+fieldset legend {
+	margin-bottom: 10px;
+	font-size: 85%;
+	color: grey;
+	font-style: bold;
+}
+
+/*set default values of fieldset labels */
+fieldset label {
+	font-size: 90%;
+	text-align: right;
+}
+
+/*set default values of fieldset input/select fields */
+fieldset input,select {
+	font-size: 90%;
+	margin-bottom: .5em;
+	margin-left: .5em;
+}
+
+/*set member/order info width and float it left */
+div#info label {
+	float: left;
+	width: 11em;
+}
+
+/*set width of member/order info input/select fields */
+div#info input,select {
+	width: 15em;
+}
+
+/*set left margin of radio buttons to shift them over */
+div#pymtInfo input {
+	margin-left: 2.5em;
+}
+
+/* set width of credit card info labels */
+div#ccInfo label {
+	width: 11em;
+	float: left;
+}
+
+/* set width of all input fields in the credit card fieldset */
+div#ccInfo input, select{
+	width: 15em;
+}
+
+/* set width of month part of expiration date */
+select#expMonth {
+	width: 7em;
+}
+
+/* set width of year part of expiration date */
+select#expYear {
+	width: 5em;
+}
+
+/* Set width of submit and reset buttons */
+div#finalize input{
+	width: 10em;
+}
+
 p {
 	margin: 20px 0px;
 }
